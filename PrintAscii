@@ -1,0 +1,21 @@
+import java.lang.*;
+import java.util.*;
+import java.io.*;
+ 
+ 
+class PrintAscii
+{
+ 
+      public static void main(String[] args)
+      {
+           System.out.println("List of ASCII Characters are given below: ");
+          
+           for(int j = 0; j <= 255; j++)
+           {
+                System.out.format("%1$-5d", j);
+                System.out.format("%1$-2c", (char) j);
+                System.out.println();
+           }
+      }
+}
+ 
