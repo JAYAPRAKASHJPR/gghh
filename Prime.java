@@ -1,11 +1,11 @@
 import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 class Prime
 {
 public static void main(String args[])
 {
-Scanner s=new Scanner(System.in);
-int n=s.nextInt();
+Scanner d=new Scanner(System.in);
+int n=d.nextInt();
 int flag=0;
 for(int i=2;i<n;i++)
 {
@@ -16,8 +16,8 @@ break;
 }
 }
 if(flag==0)
-System.out.println("its a prime number");
+System.out.println("it is a prime number");
 else
-System.out.println("its not a prime number"); 
+System.out.println("it is not a prime number"); 
 }
 }
